@@ -569,9 +569,57 @@ background-color: #FF5400;
 .news{
     width:40%;
     float: right;
-    transform: rotate(-30deg) translate(30%, -150%);
+    transform: rotate(-31deg) translate(25%, -155%);
     padding: 4%;
 }
+
+/* footer styles */
+footer{
+    margin-top: 5%;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 5%;
+    text-align: center;
+    
+   
+}
+.footer1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid #c8c8c9; 
+    margin-bottom: 3%;
+}
+.foot{
+   justify-content: center;
+    padding: 2%;
+}
+.foot-des{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 60%;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+   text-align: center;
+   margin: 3% 0;
+   margin-bottom: 3%;
+   padding-bottom: 2%;
+  
+}
+.links i{
+    margin-left: 10px;
+    width: 2%;
+    font-size: 20px;
+}
+
+
+
 /* Responsive design */
 
 /* Mobile devices */
@@ -661,7 +709,7 @@ font-weight: 800;
         gap:30px
     }
     .img-card1, .img-card2{
-        height: 70vh;
+        height: 80vh;
         background-size: cover;
         background-position: center center;
         justify-content: center;
@@ -673,7 +721,7 @@ font-weight: 800;
     }
     .card{
         width: 95%;
-        height: 50vh;
+        height: 60vh;
         border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
@@ -769,8 +817,11 @@ font-weight: 800;
 .news{
     width:50%;
     float: right;
-    transform: rotate(-30deg) translate(28%, -150%);
+    transform: rotate(-32deg) translate(28%, -157%);
     padding: 4%;
+}
+.foot-des{
+    width: 100%;
 }
 }
 
