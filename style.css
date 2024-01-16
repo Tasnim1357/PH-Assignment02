@@ -433,7 +433,145 @@ text-align: center;
 font-size: 20px;
 font-weight: 800;
 }
+/* perfect place styles */
+.perfect{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 
+}
+.perfect-des{
+    width: 40%;
+}
+.perfect-des ul li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+
+.perfect-img{
+    background-image: url('./Images/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 16px;
+}
+.description1{
+    transform: translateY(100%);
+}
+.icon3 i,.icon3 p,.icon4 i ,.icon4 p{
+    color: #F3F3F3;
+}
+.icon3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    margin-left: -70%;
+}
+.icon4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    margin-right: -430%;
+}
+.icon-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 250%;
+    transform: translateY(150%);
+}
+.description1{
+    width: 50%;
+}
+.description1 h3{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px; /* 150% */
+}
+.bottom{
+    margin-top: 25%;
+    width: 170%;
+    height: 4px;
+    background-color: #F3F3F3;
+    margin-left: 130%;
+    
+}
+
+/* Newsletter styles */
+.newsletter{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-des{
+    width: 40%;
+    padding: 2%;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    height: 61vh;
+
+}
+.newsletter-des h3{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.newsletter-des p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin: 5% 0;
+width: 75%;
+}
+.newsletter-des form{
+    border-top: 1px solid #c8c8c9;
+}
+.newsletter-des form input{
+    width: 100%;
+    display: block;
+    margin: 5% 0;
+    padding: 5%;
+    border-radius: 8px;
+    background-color: rgb(253, 250, 250);
+    outline: none;
+    border: none;
+}
+#Subscribe{
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+background-color: #FF5400;
+}
+.news-img{
+    width: 55%;
+    height: 100%;
+   
+}
+.news-img img{
+    width: 100%;
+}
+.news{
+    width:40%;
+    float: right;
+    transform: rotate(-30deg) translate(30%, -150%);
+    padding: 4%;
+}
 /* Responsive design */
 
 /* Mobile devices */
@@ -545,7 +683,7 @@ font-weight: 800;
     .card-text h4{
         font-size: 16px;
     }
-    .card-text p{
+    .card-text p,.news h2{
         font-size: 17px;
     }
     .icon{
@@ -560,7 +698,108 @@ font-weight: 800;
     
     }
     .card-text button{
-        margin-top: 8%;
+        margin-top: 3%;
     }
+    .perfect{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .perfect-img{
+        width: 100%;
+        height: 30vh;
+        overflow: hidden;
+    }
+   .description1 h3{
+    font-size: 20px;
+   }
+   .icon3{
+    gap: 10px;
+    font-size: 10px;
+    margin-left: -50%;
+    margin-top: -10%;
+}
+.icon4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    margin-right: -270%;
+    margin-top: -15%;
+}
+.description1{
+    transform: translateY(10%);
+}
+.icon-wrap{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 250%;
+}
+.bottom{
+    margin-top: 10%;
+    width: 170%;
+    height: 4px;
+    background-color: #F3F3F3;
+    margin-left: 10%;
+    
+}
+.newsletter{
+    flex-direction: column;
+    gap: 20px;
+}
+.newsletter-des{
+    width: 100%;
+    padding: 2%;
+    border-radius: 16px;
+    height: 50vh;
+
+}
+.news-img{
+    width: 100%;
+    height: 100%;
    
+}
+.news-img img{
+    width: 100%;
+}
+.news p {
+    font-size: 14px;
+}
+.news{
+    width:50%;
+    float: right;
+    transform: rotate(-30deg) translate(28%, -150%);
+    padding: 4%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px){
+    .bottom{
+        margin-top: 5%;
+        width: 170%;
+        height: 4px;
+        background-color: #F3F3F3;
+        margin-left: 20%;
+       
+        
+    }
 }
